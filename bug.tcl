@@ -1,0 +1,1 @@
+proc get_element {list index} {    if {$index < 0 || $index >= [llength $list]} {        return -1    }    return [lindex $list $index]}
